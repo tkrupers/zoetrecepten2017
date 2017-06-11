@@ -1,0 +1,28 @@
+.card {
+  h4 small {
+    color: lighten($text-color, 50%);
+  }
+
+  .lees-meer > a {
+    margin-bottom: -15px;
+  }
+}
+
+.first-post {
+  margin-bottom: 1rem;
+
+  .col-md-8 {
+    @media (min-width: map-get($grid-breakpoints, md)) {
+      border: 15px solid white;
+    }
+    padding: 0;
+  }
+
+  .first-post-text {
+    h3 {
+      color: white;
+    }
+    margin: 1rem 0;
+    display: flex;
+  }
+}
