@@ -18,6 +18,7 @@
     }
   ],
   "scripts": {
+    "start": "gulp watch",
     "build": "bower install && gulp",
     "jshint": "gulp jshint",
     "jscs": "jscs gulpfile.js assets/scripts/*.js"

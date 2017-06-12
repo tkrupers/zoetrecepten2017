@@ -1,28 +1,38 @@
-.card {
-  h4 small {
-    color: lighten($text-color, 50%);
+.first-post {
+  margin-bottom: 1rem;
+  background-color: white;
+
+  .col-md-8 {
+    padding: 0;
   }
 
+  .first-post-text {
+    display: flex;
+    @media (max-width: map-get($grid-breakpoints, md)) {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.card {
   .lees-meer > a {
     margin-bottom: -15px;
   }
 }
 
-.first-post {
-  margin-bottom: 1rem;
+.post-meta {
+  color: lighten($text-color, 50%);
+}
 
-  .col-md-8 {
-    @media (min-width: map-get($grid-breakpoints, md)) {
-      border: 15px solid white;
-    }
-    padding: 0;
-  }
+.card-sticky {
+  border: 4px double $brand-primary;
 
-  .first-post-text {
-    h3 {
-      color: white;
-    }
-    margin: 1rem 0;
-    display: flex;
+  .sticky-sticker {
+    position: absolute;
+    right: .5rem;
+    z-index: 1;
+    font-size: 1.5rem;
+    transform: rotate(15deg);
+    color: $brand-primary;
   }
 }
