@@ -39,6 +39,9 @@
         ?>
         </div>
       </div>
+      <div class="col my-3 text-center">
+        <a class="btn btn-success" href="/recepten?category_name=basisrecepten">Meer basis recepten</a>
+      </div>
     </div>
   </div>
 </div>

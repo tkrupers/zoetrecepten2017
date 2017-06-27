@@ -13,3 +13,7 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+.form-control input[type=text]:focus {
+  border-color: #ddd;
+}

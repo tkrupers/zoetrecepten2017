@@ -2,3 +2,27 @@
   display: inline-block;
   width: 100%;
 }
+
+a.prev,
+a.next {
+  @extend .btn;
+  @extend .btn-outline-primary;
+
+  &:first-child {
+    margin-right: 1em;
+  }
+
+  &:focus,
+  &:active {
+    box-shadow: none;
+  }
+}
+
+.page-numbers {
+  padding-right: 1em;
+
+  &.current {
+    color: $brand-primary;
+    font-weight: bold;
+  }
+}

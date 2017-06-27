@@ -69,3 +69,13 @@
     wp_reset_postdata();
   ?>
 </div>
+
+<div class="my-2">
+  <div class="container">
+    <div class="row">
+      <div class="col my-3 text-center">
+        <a class="btn btn-outline-primary" href="/recepten">Meer recepten</a>
+      </div>
+    </div>
+  </div>
+</div>
