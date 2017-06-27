@@ -5,5 +5,11 @@ body {
 }
 
 main.main {
+  background-color: white;
   margin-top: 80px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }

@@ -1,14 +1,43 @@
-<?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
+<?php 
+	while ( have_posts() ) : the_post();
+?>
+  <article <?php post_class(); ?> itemscope itemtype="http://schema.org/Recipe">
     <header>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
+      <h1 class="entry-title" itemprop="name"><?php the_title(); ?></h1>
       <?php get_template_part('templates/entry-meta'); ?>
+
+      <?php the_post_thumbnail('large', array( 'itemprop' => 'image')); ?>
     </header>
-    <div class="entry-content">
+    <div class="entry-content my-3"  itemprop="description">
       <?php the_content(); ?>
     </div>
     <footer>
-      <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
+    <div class="page-navigation">
+    <?php
+      if($link = get_previous_post_link('%link', '%title')) {
+        echo '<div class="alignleft">
+                <div class="post-button previous">
+                  <span class="fa fa-chevron-left"></span>
+                  ' . $link . '
+                </div>
+              </div>';
+      }
+
+      if($link = get_next_post_link('%link', '%title')) {
+        echo '<div class="alignright">
+                <div class="post-button next">
+                  ' . $link . '
+                  <span class="fa fa-chevron-right"></span>
+                </div>
+              </div>';
+      }
+      ?>
+      </div>
+
+	<?php if(is_singular('recepten')) :
+  get_template_part('templates/post/content', 'recept'); 
+  endif;?>
+
     </footer>
     <?php comments_template('/templates/comments.php'); ?>
   </article>
