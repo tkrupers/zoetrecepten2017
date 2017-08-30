@@ -17,3 +17,7 @@
 .form-control input[type=text]:focus {
   border-color: #ddd;
 }
+
+.form-control:focus {
+  border-color: #ccc
+}

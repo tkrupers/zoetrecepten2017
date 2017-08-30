@@ -14,7 +14,7 @@
 <div id="recipe">
   <div class="row">
     <div class="col-md-4" itemprop="ingredients">
-      <h3>Benodigdheden</h3>
+      <h3>Dit heb je nodig</h3>
 
       <ul>
         <?php	

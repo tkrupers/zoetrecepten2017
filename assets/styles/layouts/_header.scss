@@ -1,3 +1,12 @@
 nav.navbar {
-  font-family: $headings-font-family;
+  .navbar-brand {
+    font-family: $headings-font-family;
+  }
+
+  .nav-link {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 26px;
+  }
 }

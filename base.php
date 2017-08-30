@@ -17,13 +17,18 @@ use Roots\Sage\Wrapper;
     <?php
       do_action('get_header');
       get_template_part('templates/header');
+
+      if (!is_single()) {
+        get_template_part('templates/recipe', 'filter');
+      }
     ?>
     <div class="wrap container" role="document">
       <div class="content row">
-        <main class="main py-2">
+      <? $main_class = is_single() ? 'main single-page' : '' ?>
+        <main class="<? echo $main_class ?> py-2">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
-        <?php if (Setup\display_sidebar()) : ?>
+        <?php if (Setup\display_sidebar() && is_single()) : ?>
           <aside class="sidebar">
             <?php include Wrapper\sidebar_path(); ?>
           </aside><!-- /.sidebar -->

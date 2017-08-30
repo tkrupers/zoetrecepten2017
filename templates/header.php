@@ -10,11 +10,7 @@
         wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new wp_bootstrap_navwalker(), 'menu_class' => 'navbar-nav mr-auto']);
       endif;
       ?>
-<form class="form-inline">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Zoeken" aria-describedby="search-button">
-      <span class="input-group-btn" id="search-button"><a class="btn btn-secondary btn-search"><i class="fa fa-search"></i> <span class="sr-only">Search</span></a></span>
-    </div>
-  </form>
+
+    <?php get_search_form(); ?>
   </div>
 </nav>
