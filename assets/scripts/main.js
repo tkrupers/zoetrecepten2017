@@ -19,6 +19,10 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+        var YT = $('iframe');
+        if (YT.length) {
+          YT.parent().addClass('iframe-wrapper');
+        }
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

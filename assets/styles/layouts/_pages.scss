@@ -31,3 +31,34 @@ a.next {
     font-weight: bold;
   }
 }
+
+.main-page p:first-child,
+.entry-content p:first-child  {
+  @extend .lead;
+}
+
+@media print {
+  ::first-letter{
+    margin: 0;
+    padding: 0;
+  }
+  ol > li {
+    float: none;
+    position: relative;
+    -webkit-break-inside: avoid;
+    break-inside: avoid;
+    margin-top: 1rem;
+    page-break-inside: avoid;
+    box-decoration-break: clone;
+  }
+  .print-brand {
+    font-size: 40px;
+    width: 100%;
+    font-family: $headings-font-family;
+    color: #ffcfdb;
+    text-align: center;
+  }
+  .jumbotron {
+    padding: 0;
+  }
+}

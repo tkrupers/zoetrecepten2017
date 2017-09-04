@@ -1,3 +1,4 @@
+<span class="print-brand text-primary visible-print-block" href="/">Zoetrecepten</span>
 <div class="jumbotron jumbotron-fluid bg-primary">
   <div class="container">
     <h2 class="display-4"><?php the_title(); ?></h2>
@@ -8,6 +9,7 @@
       <i class="fa fa-cutlery"></i> <span itemprop="recipeYield"><?php the_field('personen'); ?> personen</span>
       <?php }; ?>
     </p>
+    <button class="btn btn-primary hidden-print" onclick="window.print()"><span class="fa fa-print"></span> Print</button>
   </div>
 </div>
 

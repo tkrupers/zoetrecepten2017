@@ -1,7 +1,20 @@
 .recipe-filter {
   background-color: $brand-primary;
 
-  .form-control {
-    color: $text-color;
+  .row {
+    width: 100%;
+  }
+  .col-md-8 {
+    margin: 0 auto;
+  }
+  .filters {
+    display: flex;
+
+    select {
+      flex: 1 1 100%;
+      &:not(:last-child) {
+        margin-right: 5px;
+      }
+    }
   }
 }

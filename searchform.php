@@ -1,4 +1,4 @@
-<form class="form-inline" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+<form class="form-inline search-form" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
   <div class="input-group">
     <input type="search" class="form-control" placeholder="Zoeken" aria-describedby="search-button" value="<?php echo get_search_query(); ?>" name="s" >
     <span class="input-group-btn" id="search-button">

@@ -7,7 +7,6 @@ $font-family-base: 'Lora', serif;
 $headings-font-family: 'ostrich_sansblack', sans-serif;
 $text-color: #444;
 $headings-color: $text-color;
-$link-color: $text-color;
 $line-height-base: 1.75;
 
 $body-bg: #f9f9f9;
@@ -20,4 +19,7 @@ $brand-secondary: #fff38e;
 
 $gray-light: #f1f1f1;
 $gray: #dddddd;
-$gray-dark: #888888
+$gray-dark: #888888;
+
+$link-color: darken($brand-primary, 10%);
+$input-color-placeholder: $gray-dark;

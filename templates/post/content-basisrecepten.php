@@ -6,7 +6,7 @@
         <p class="lead">Voor elk moment van de dag.</p>
       </div>
       <div class="container">
-        <div class="row px-5 pt-3 pb-4">
+        <div class="row">
         <?php
           $basisrecepten = new WP_Query(
             array(

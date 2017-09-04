@@ -14,7 +14,10 @@
   @extend .btn-secondary;
 }
 
+.form-control,
+.form-control:focus,
 .form-control input[type=text]:focus {
+  color: $text-color;
   border-color: #ddd;
 }
 

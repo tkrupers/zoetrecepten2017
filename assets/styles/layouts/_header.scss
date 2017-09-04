@@ -10,3 +10,32 @@ nav.navbar {
     line-height: 26px;
   }
 }
+
+.social-icons {
+  padding-left: 1em;
+  span {
+    padding: .5em .25em;
+    font-size: 16px;
+    color: $text-color;
+
+    &.fa-instagram:hover {
+      color: $brand-success;
+    }
+    &.fa-youtube:hover,
+    &.fa-pinterest:hover {
+      color: $brand-danger;
+    }
+    &.fa-facebook-official:hover {
+      color: $brand-info;
+    }
+    &.fa-envelope-o:hover {
+      color: $brand-secondary;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul.dropdown-menu {
+    border: 0
+  }
+}

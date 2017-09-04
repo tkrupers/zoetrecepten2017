@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-toggleable-md navbar-light" style="background-color:white">
+<nav class="navbar fixed-top navbar-toggleable-md navbar-light hidden-print" style="background-color:white">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -10,7 +10,6 @@
         wp_nav_menu(['theme_location' => 'primary_navigation', 'walker' => new wp_bootstrap_navwalker(), 'menu_class' => 'navbar-nav mr-auto']);
       endif;
       ?>
-
-    <?php get_search_form(); ?>
+      <?php get_template_part('templates/content', 'social'); ?>
   </div>
 </nav>

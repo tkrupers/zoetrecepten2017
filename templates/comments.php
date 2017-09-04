@@ -4,10 +4,9 @@ if (post_password_required()) {
 }
 ?>
 
-<section id="comments" class="comments">
+<section id="comments" class="comments my-4 hidden-print">
   <?php if (have_comments()) : ?>
-    <h2><?php printf(_nx('One response to &ldquo;%2$s&rdquo;', '%1$s responses to &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'sage'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>'); ?></h2>
-
+    <h2><?php printf(_nx('Een antwoord op &ldquo;%2$s&rdquo;', '%1$s antwoorden op &ldquo;%2$s&rdquo;', get_comments_number(), 'comments title', 'sage'), number_format_i18n(get_comments_number()), '<span>' . get_the_title() . '</span>'); ?></h2>
     <ol class="comment-list">
       <?php wp_list_comments(['style' => 'ol', 'short_ping' => true]); ?>
     </ol>

@@ -15,7 +15,7 @@
     // The Loop
       while ( $recepten1->have_posts() ) : $recepten1->the_post();
   ?>
-  
+
   <?php get_template_part('templates/card'); ?>
 
   <?php
@@ -50,9 +50,9 @@
     $recepten2 = new WP_Query(
       array(
         'post_type'      => ['recepten', 'blog'],
-        'posts_per_page' => 3,
+        'posts_per_page' => 6,
         'post__not_in' => $sticky,
-        'offset'		 => $has_sticky ? 3 : 4,
+        'offset'		 => $has_sticky ? 6 : 7,
         'orderby'		 => 'date'
         ) );
 
