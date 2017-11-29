@@ -3,3 +3,14 @@
   display: flex;
   align-items: center;
 }
+
+.btn-white {
+  color: $text-color;
+  background-color: #ffffff;
+
+  &:hover,
+  &:active {
+    color: $text-color;
+    background-color: darken(#ffffff, 5%);
+  }
+}

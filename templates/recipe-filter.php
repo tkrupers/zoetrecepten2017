@@ -20,11 +20,17 @@
             <div class="col-sm-12 filters">
               <select name="category_name" id="filter_category" class="form-control" onchange="this.form.submit()">
                 <option value="" selected>Kies een categorie</option>
+                <option value="basisrecepten" <?php selected( get_query_var( 'category_name' ), 'basisrecepten' ); ?>>Basisrecepten</option>
+                <option value="cake-cupcakes-muffins" <?php selected( get_query_var( 'category_name' ), 'cake-cupcakes-muffins' ); ?>>Cake, cupcakes & muffins</option>
+                <option value="drankjes-ijs" <?php selected( get_query_var( 'category_name' ), 'drankjes-ijs' ); ?>>Drankjes & ijs(jes)</option>
+                <option value="koekjes-plaatkoek" <?php selected( get_query_var( 'category_name' ), 'koekjes-plaatkoek' ); ?>>Koekjes & plaatkoek</option>
                 <option value="ontbijt-brunch-lunch" <?php selected( get_query_var( 'category_name' ), 'ontbijt-brunch-lunch' ); ?>>Ontbijt, brunch & lunch</option>
+                <option value="overig-gebak" <?php selected( get_query_var( 'category_name' ), 'overig-gebak' ); ?>>Overig gebak</option>
                 <option value="taart" <?php selected( get_query_var( 'category_name' ), 'taart' ); ?>>Taart</option>
-                <option value="cheesecake-2" <?php selected( get_query_var( 'category_name' ), 'cheesecake-2' ); ?>>Cheesecake</option>
-                <option value="tapas" <?php selected( get_query_var( 'category_name' ), 'tapas' ); ?>>Tapashappen</option>
                 <option value="toetjes" <?php selected( get_query_var( 'category_name' ), 'toetjes' ); ?>>Toetjes</option>
+                <option value="tussendoor" <?php selected( get_query_var( 'category_name' ), 'tussendoor' ); ?>>Tussendoor</option>
+                <option value="zoete-toppings" <?php selected( get_query_var( 'category_name' ), 'zoete-toppings' ); ?>>Zoete toppings</option>
+                <option value="zout" <?php selected( get_query_var( 'category_name' ), 'zout' ); ?>>Salade, soep, quiche & tapas</option>
               </select>
               <select name="gezondigen" class="form-control" onchange="this.form.submit()">
                 <option value="" selected>(On)Gezond?</option>

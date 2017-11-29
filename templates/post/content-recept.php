@@ -1,21 +1,22 @@
 <span class="print-brand text-primary visible-print-block" href="/">Zoetrecepten</span>
-<div class="jumbotron jumbotron-fluid bg-primary">
+<div id="recipe-wrapper" class="jumbotron jumbotron-fluid">
   <div class="container">
     <h2 class="display-4"><?php the_title(); ?></h2>
     <p class="lead">
-      Geschreven door <span itemprop="author"><?php the_author(); ?></span> | <?php if( get_field('bereidingstijd')) { ?><i class="fa fa-clock-o"></i>
-      <?php the_field('bereidingstijd'); ?>
-      <?php }; if( get_field('personen')) { ?>| 
-      <i class="fa fa-cutlery"></i> <span itemprop="recipeYield"><?php the_field('personen'); ?> personen</span>
+      <span class="mx-2">Door <span itemprop="author"><?php the_author(); ?></span></span>|<span class="mx-2"><?php if( get_field('bereidingstijd')) { ?><i class="fa fa-clock-o"></i>
+      <?php the_field('bereidingstijd'); ?></span>
+      <?php }; if( get_field('personen')) { ?>
+        |
+        <span class="mx-2"><i class="fa fa-pie-chart"></i> <span itemprop="recipeYield"><?php the_field('personen'); ?> personen</span></span>
       <?php }; ?>
     </p>
-    <button class="btn btn-primary hidden-print" onclick="window.print()"><span class="fa fa-print"></span> Print</button>
+    <button class="btn btn hidden-print" onclick="window.print()"><span class="fa fa-print"></span> Print</button>
   </div>
 </div>
 
 <div id="recipe">
   <div class="row">
-    <div class="col-md-4" itemprop="ingredients">
+    <div class="col-md-4 mb-2" itemprop="ingredients">
       <h3>Dit heb je nodig</h3>
 
       <ul>
@@ -31,25 +32,13 @@
       ?>
     </div>
     <div class="col-md-8">
-      <?php if( ! empty( $bereiding ) ) { ?>
-      <h3>Zo maak je <?php echo the_title(); ?>:</h3>
+    <h3>En zo doe je het</h3>
       <div itemprop="recipeInstructions">
-      <ol>
-        <?php 
-        echo $bereiding;
-        ?>
-      </ol>
+      <?php $bereidingswijze2 = the_field('bereidingswijze2') ?>
+      
+      <?php echo $bereidingswijze2; ?>
+      
       </div>
-      <?php } 
-      $bereidingswijze2 = the_field('bereidingswijze2') ?>
-      <?php if( ! empty( $bereidingswijze2 ) ) { ?>
-      <p>
-        <strong>Zo maak je <?php echo the_title(); ?></strong>
-      </p>
-      <?php
-      echo $bereidingswijze2;
-      }
-      ?>
     </div>
 	</div>
 

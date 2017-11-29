@@ -39,6 +39,20 @@
     endif;
     ?>
   </footer>
+  
+  <!-- Zoetrecepten/autonative -->
+  <div id='adf-autonative' style='text-align:center; margin:auto;'>
+  </div>
+
+    <?php if (is_singular( 'recepten' )): ?>
+    <div class="my-3">
+        <em>
+          <strong>ENJOY ZOETJES!</strong> Heb jij deze "<?php the_title(); ?>" gemaakt? Laat even weten wat je ervan vond of show het resultaat via <a href="https://www.instagram.com/zoetrecepten">Instagram</a> (tag me @zoetrecepten) of mijn <a href="https://www.facebook.com/zoetrecepten">Facebookpagina</a>. Vind ik leuk! Elke week deel ik het mooiste kiekje via Instagram. 
+          <div>XOXO Mariette</div>
+        </em>
+      </div>
+    <?php endif;?>
+
     <?php
       get_template_part('templates/more', 'recipes');
       comments_template('/templates/comments.php');

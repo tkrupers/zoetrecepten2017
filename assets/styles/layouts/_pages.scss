@@ -37,10 +37,23 @@ a.next {
   @extend .lead;
 }
 
+blockquote p {
+  @extend .blockquote;
+
+  * {
+    font-size: 14px;
+  }
+}
+
 @media print {
   ::first-letter{
     margin: 0;
     padding: 0;
+  }
+  ol {
+    width:100%; 
+    height:100%;
+    page-break-after:always;
   }
   ol > li {
     float: none;
@@ -48,7 +61,7 @@ a.next {
     -webkit-break-inside: avoid;
     break-inside: avoid;
     margin-top: 1rem;
-    page-break-inside: avoid;
+    page-break-inside: auto;
     box-decoration-break: clone;
   }
   .print-brand {

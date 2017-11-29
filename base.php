@@ -22,10 +22,15 @@ use Roots\Sage\Wrapper;
         get_template_part('templates/recipe', 'filter');
       }
     ?>
+
+    <!-- Zoetrecepten/billboard+mobile -->
+    <div id='adf-billboard' style='text-align:center; margin:auto;'>
+    </div>
+
     <div class="wrap container" role="document">
       <div class="content row">
-      <? $main_class = is_single() ? 'main single-page' : '' ?>
-        <main class="<? echo $main_class ?> py-2">
+      <?php $main_class = is_single() ? 'main single-page' : '' ?>
+        <main class="<?php echo $main_class ?> py-2">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
         <?php if (Setup\display_sidebar() && is_single()) : ?>

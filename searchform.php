@@ -6,4 +6,8 @@
     </button>
     </span>
   </div>
+  <?php if (is_single()): ?>
+  <div class"extended-search mb-1">
+    <small><a href="/">Uitgebreid zoeken</a></small></div>
+  <?php endif; ?>
 </form>

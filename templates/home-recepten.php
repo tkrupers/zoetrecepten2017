@@ -74,7 +74,7 @@
   <div class="container">
     <div class="row">
       <div class="col my-3 text-center">
-        <a class="btn btn-outline-primary" href="/recepten">Meer recepten</a>
+        <a class="btn btn-primary" href="/recepten">Meer recepten</a>
       </div>
     </div>
   </div>

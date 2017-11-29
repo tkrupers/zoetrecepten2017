@@ -7,7 +7,6 @@ if ($tags) { ?>
 <div class="row py-2 hidden-print">
   <div class="col-md-12">
     <h3>Bekijk ook</h3>
-    <p class="lead">de volgende <em>healthy & sweet</em> recepten</p>
     <div class="card-columns">
     <?php
 			$tag_ids = array();
@@ -26,7 +25,9 @@ if ($tags) { ?>
 			while( $my_query->have_posts() ) {
         $my_query->the_post(); ?>
         <article class="card">
-        <img class="card-img-top img-fluid" src="<?php the_post_thumbnail_url('small'); ?>" alt="<?php echo the_title(); ?>">
+        <a href="<?php the_permalink(); ?>">
+          <img class="card-img-top img-fluid" src="<?php the_post_thumbnail_url('small'); ?>" alt="<?php echo the_title(); ?>">
+        </a>
         <div class="card-block">
           <h4 class="post-meta"><small><?php the_author(); ?> / <?php the_date('d M Y'); ?></small></h4>
           <a href="<?php the_permalink(); ?>">

@@ -1,6 +1,77 @@
 aside.sidebar {
+  padding-top: 1em;
+
+  .widget.wysija-4.widget_wysija {
+    background: $brand-info;
+    padding: 1em;
+
+    .wysija-input {
+      @extend .form-control;
+    }
   
+    .wysija-submit {
+      @extend .btn;
+  
+      font-size: 14px !important;
+      margin-top: 0;
+      cursor: pointer;
+    }
+  }
+
+  .card-body {
+    padding: 1em;
+  }
+ 
+  .form-inline .input-group {
+    width: 100%;
+  }
+
+  .widget {
+    margin-bottom: 1em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin-bottom: 5px;
+
+      img {
+        max-width: 60px;
+        max-height: 60px;
+        margin-right: 1em;
+    
+        &+h4 {
+          font-size: 14px;
+          font-family: $font-family-base;
+          display: inline-block;
+          width: 50%;
+          margin: 0;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+
+  ul.pis-ul li:before {
+    content: "\2665";
+    float: left;
+    margin-right: 5px;
+    font-size: 12px;
+    top: 2px;
+    position: relative;
+  }
+
+  p.pis-title {
+    padding-left: 1em;
+  }
+
   a {
     color: $text-color;
+  }
+
+  .search-form {
+    margin-bottom: 1em;
   }
 }
