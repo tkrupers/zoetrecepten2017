@@ -14,3 +14,24 @@
     background-color: darken(#ffffff, 5%);
   }
 }
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+  a, span {
+    margin: 0 4px 4px 0;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid inherit;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 19px;
+    font-family: Arial, sans-serif;
+
+    &:active,
+    &:visited {
+      color: white;
+    }
+  }
+}

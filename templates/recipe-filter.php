@@ -42,6 +42,7 @@
                 <option value="vegan" <?php selected( get_query_var( 'soort' ), 'vegan' ); ?>>Vegan</option>
                 <option value="glutenvrij" <?php selected( get_query_var( 'soort' ), 'glutenvrij' ); ?>>Glutenvrij</option>
                 <option value="lactosevrij" <?php selected( get_query_var( 'soort' ), 'lactosevrij' ); ?>>Lactosevrij</option>
+                <option value="notenvrij" <?php selected( get_query_var( 'soort' ), 'notenvrij' ); ?>>Notenvrij</option>
               </select>
             </div>
           </div>

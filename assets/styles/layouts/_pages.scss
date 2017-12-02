@@ -8,10 +8,14 @@ h1, h2, h3 {
   width: 100%;
 }
 
+.navigation.pagination {
+  margin-top: 1em;
+}
+
 a.prev,
 a.next {
   @extend .btn;
-  @extend .btn-outline-primary;
+  @extend .btn-primary;
 
   &:first-child {
     margin-right: 1em;
@@ -20,6 +24,12 @@ a.next {
   &:focus,
   &:active {
     box-shadow: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation.pagination {
+    margin-left: 1em;
   }
 }
 

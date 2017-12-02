@@ -10,7 +10,7 @@
         <span class="mx-2"><i class="fa fa-pie-chart"></i> <span itemprop="recipeYield"><?php the_field('personen'); ?> personen</span></span>
       <?php }; ?>
     </p>
-    <button class="btn btn hidden-print" onclick="window.print()"><span class="fa fa-print"></span> Print</button>
+    <button class="btn btn-white hidden-print" onclick="window.print()"><span class="fa fa-print"></span> Print</button>
   </div>
 </div>
 

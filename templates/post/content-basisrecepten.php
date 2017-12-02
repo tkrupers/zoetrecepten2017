@@ -3,7 +3,6 @@
     <div class="row bg-warning">
       <div class="col align-items-center text-center mt-4">
         <h3 class="text-uppercase">#basisrecepten</h3>
-        <p class="lead">Voor elk moment van de dag.</p>
       </div>
       <div class="container">
         <div class="row">
@@ -40,7 +39,7 @@
         </div>
       </div>
       <div class="col my-3 text-center">
-        <a class="btn btn-white" href="/recepten?category_name=basisrecepten">Meer basis recepten</a>
+        <a class="btn btn-white" href="/recepten?category_name=basisrecepten">Meer basisrecepten</a>
       </div>
     </div>
   </div>

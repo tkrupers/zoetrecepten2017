@@ -5,13 +5,9 @@ body {
   color: $text-color;
 }
 
-.recipe-filter {
-  margin-top: 59px;
-}
-
 main.single-page,
 aside.sidebar {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 main.main,
@@ -30,6 +26,11 @@ select.form-control {
 }
 
 @media all and (max-width: 768px) {
+  div#adf-autonative,
+  div#adf-billboard {
+    position: relative;
+  }
+
   .iframe-wrapper {
     height: 0px;
     padding-top: 25px;
