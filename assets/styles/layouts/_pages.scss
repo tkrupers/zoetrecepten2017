@@ -51,7 +51,25 @@ blockquote p {
   @extend .blockquote;
 
   * {
-    font-size: 14px;
+    font-size: 16px;
+  }
+}
+
+.thema-block:nth-child(even) {
+  background-color: $gray-light;
+}
+
+.thema-deck {
+  @extend .card-deck;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    display: flex;
+
+    .card {
+      width: calc(50% - 10px);
+      margin: 5px;
+    }
   }
 }
 

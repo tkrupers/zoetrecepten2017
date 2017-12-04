@@ -22,7 +22,7 @@
 
         <article class="basisrecept col-md-3">
           <header>
-            <img class="img-fluid" src="<?php the_post_thumbnail_url('small'); ?>" alt="<?php echo the_title(); ?>">
+          <a href="<?php the_permalink(); ?>"><img class="img-fluid" src="<?php the_post_thumbnail_url('small'); ?>" alt="<?php echo the_title(); ?>"></a>
           </header>
           <div class="basisrecept-block my-2">
             <a href="<?php the_permalink(); ?>">

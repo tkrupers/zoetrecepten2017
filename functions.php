@@ -105,3 +105,17 @@ $args = array(
 register_post_type( 'blog', $args );
 }
 add_action('init', 'zoetrecepten_blog_cpt', 0);
+
+//Add Google Analytics to footer
+function zoetrecepten_add_googleanalytics() { ?>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40838792-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40838792-1');
+</script>
+<?php
+}
+add_action('wp_head', 'zoetrecepten_add_googleanalytics');
