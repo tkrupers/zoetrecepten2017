@@ -1,10 +1,11 @@
-.recipe-filter {
-  margin-top: 61px;
-  background-color: $brand-primary;
+.rt__wrapper {
+  padding: 0;
+}
 
-  .row {
-    width: 100%;
-  }
+.recipe-filter {
+  background-color: $brand-primary;
+  width: 100%;
+
   .col-md-8 {
     margin: 0 auto;
   }

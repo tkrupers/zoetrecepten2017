@@ -12,7 +12,7 @@
               'post_type'      => 'recepten',
               'category_name' => 'basisrecepten',
               'posts_per_page' => 4,
-              'orderby'		 => 'date'
+              'orderby'		 => 'rand'
               ) );
 
           if ( $basisrecepten->have_posts() ) :

@@ -12,9 +12,16 @@ aside.sidebar {
     .wysija-submit {
       @extend .btn;
   
-      font-size: 16px !important;
       margin-top: 0;
       cursor: pointer;
+      color: $text-color;
+      background-color: #ffffff;
+    
+      &:hover,
+      &:active {
+        color: $text-color;
+        background-color: darken(#ffffff, 5%);
+      }
     }
   }
 
@@ -73,5 +80,13 @@ aside.sidebar {
 
   .search-form {
     margin-bottom: 1em;
+  }
+
+  iframe {
+    position: relative;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 1em;
   }
 }

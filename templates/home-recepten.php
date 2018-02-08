@@ -1,12 +1,10 @@
 <div class="card-columns">
 	<?php
     $sticky = get_option('sticky_posts');
-    $has_sticky = isset($sticky[0]);
     $recepten1 = new WP_Query(
       array(
         'post_type'      => ['recepten', 'blog'],
-        'posts_per_page' => $has_sticky ? 2 : 3,
-        'post__not_in' => $sticky,
+        'posts_per_page' => 3,
         'offset'		 => 1,
         'orderby'		 => 'date'
         ) );
@@ -25,13 +23,12 @@
   ?>
 
   <?php
-    if ($has_sticky) {
       $stickypost = new WP_Query(
         array(
           'post_type'      => ['recepten', 'blog'],
           'posts_per_page' => 1,
-          'post__in'  => $sticky,
-          'ignore_sticky_posts' => 1
+          'meta_key'       => 'starred_post',
+          'meta_value'     => '1'
           ) );
 
       if ( $stickypost->have_posts() ) :
@@ -43,16 +40,14 @@
       endwhile;
       endif;
       wp_reset_postdata();
-    }
   ?>
 
 	<?php
     $recepten2 = new WP_Query(
       array(
         'post_type'      => ['recepten', 'blog'],
-        'posts_per_page' => 6,
-        'post__not_in' => $sticky,
-        'offset'		 => $has_sticky ? 6 : 7,
+        'posts_per_page' => 5,
+        'offset'		 => 4,
         'orderby'		 => 'date'
         ) );
 

@@ -1,3 +1,6 @@
+<a href="https://partnerprogramma.bol.com/click/click?p=1&t=url&s=27739&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fpuur-zoet%2F9200000085089948%2F&name=PUUR%20ZOET" class="boek-alert d-block p-3 text-center text-white" role="alert">
+Reserveer PUUR ZOET nu via deze link voor €24,99!
+</a>
 <nav class="navbar fixed-top navbar-toggleable-md navbar-light hidden-print py-2" style="background-color:white">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,50 +20,3 @@
       <?php get_template_part('templates/content', 'social'); ?>
   </div>
 </nav>
-
-<!-- meetpixels OETKER SOEZEN campagne -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_2177615714_1&c=123456789" width="1" height="1" border="0"></iframe>
-
-<!-- meetpixels BECEL ARTIKEL 9 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campign%3D188898404_2099605589_8&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 8 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campign%3D188898404_2099605589_7&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 7 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_2099605589_6&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 6 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_2099605589_5&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 5 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_2099605589_4&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 4 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_2099605589_3&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 3 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_2099605589_2&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 2 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_2099605589_1&c=123456789"
-  width="1" height="1" border="0"></iframe>
-
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=22035507&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels BECEL ARTIKEL 1 -->
-<iframe style="display:none;" src="https://pubads.g.doubleclick.net/gampad/adx?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_464103124_1&c=123456789" width="1" height="1" border="0"></iframe>
-<div style="display:none;"><img src="https://bs.serving-sys.com/serving/adServer.bs?cn=display&c=19&mc=imp&pli=21558892&PluID=0&ord=%%CACHEBUSTER%%&rtu=-1&pcp=$$DCMID$$" border="0" width="1" height="1" /></div>
-
-<!-- meetpixels Hero Jam 1 campagne -->
-<div style="display:none;"><img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_429692164_1"/></div>
-
-<!-- meetpixels Hero Jam 2 campagne -->
-<div style="display:none;"><img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/4045/Blogads/188898404&sz=1x1&t=campaign%3D188898404_429692164_2"/></div>

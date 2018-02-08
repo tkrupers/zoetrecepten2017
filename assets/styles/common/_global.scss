@@ -4,9 +4,22 @@ body {
   color: $text-color;
 }
 
-main.single-page,
-aside.sidebar {
-  margin-top: 70px;
+main.single-page {
+  margin-top: 5px;
+}
+
+.single-page article {
+  margin-top: 1em; 
+}
+
+.boek-alert {
+  margin:60px 0 0;
+  background-color:#ff9cb5;
+
+  &:focus,
+  &:hover {
+    background-color: darken(#ff9cb5, 5%);
+  }
 }
 
 main.main,
@@ -24,10 +37,21 @@ select.form-control {
   color: $input-color-placeholder;
 }
 
+@media all and (min-width: 768px) {
+  div#adf-billboard {
+    margin-top: 75px;
+  }
+}
+
 @media all and (max-width: 768px) {
+
   div#adf-autonative,
   div#adf-billboard {
     position: relative;
+
+    iframe {
+      position: relative;
+    }
   }
 
   .iframe-wrapper {

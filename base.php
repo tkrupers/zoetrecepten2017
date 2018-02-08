@@ -52,13 +52,13 @@ use Roots\Sage\Wrapper;
     ?>
 
     <!-- Zoetrecepten/billboard+mobile -->
-    <div id='adf-billboard' style='text-align:center; margin:auto;'>
+    <div id='adf-billboard' style='text-align:center;margin:auto'>
     </div>
 
     <div class="wrap container" role="document">
       <div class="content row">
       <?php $main_class = is_single() ? 'main single-page' : '' ?>
-        <main class="<?php echo $main_class ?> py-2">
+        <main class="<?php echo $main_class ?>">
           <?php include Wrapper\template_path(); ?>
         </main><!-- /.main -->
         <?php if (Setup\display_sidebar() && is_single()) : ?>
