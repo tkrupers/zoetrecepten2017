@@ -46,9 +46,9 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
 
-      if (!is_single()) {
+    if (!is_single()) {
         get_template_part('templates/recipe', 'filter');
-      }
+    }
     ?>
 
     <!-- Zoetrecepten/billboard+mobile -->

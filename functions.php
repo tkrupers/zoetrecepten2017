@@ -30,7 +30,7 @@ unset($file, $filepath);
 
 function zoetrecepten_recept_cpt() {
 // Create custom post type: Recepten
-$labels = array(
+  $labels = array(
   'name' => 'Recepten',
   'singular_name' => 'Recepten',
   'add_new' => 'Nieuw Recept',
@@ -39,19 +39,19 @@ $labels = array(
   'new_item' => 'Nieuw Recept',
   'view_item' => 'Bekijk Recept',
   'search_items' => 'Zoek Recept',
-  'not_found' =>  'Geen Recept Gevonden',
+  'not_found' => 'Geen Recept Gevonden',
   'not_found_in_trash' => 'Geen Recepten Gevonden In De Prullenbak',
   );
-$args = array(
+  $args = array(
   'labels' => $labels,
-  'menu_position' =>  5,
+  'menu_position' => 5,
   'has_archive' => true,
   'public' => true,
   'hierarchical' => true,
-	'show_ui'             => true,
-	'show_in_menu'        => true,
-	'show_in_nav_menus'   => true,
-	'show_in_admin_bar'   => true,
+	'show_ui' => true,
+	'show_in_menu' => true,
+	'show_in_nav_menus' => true,
+	'show_in_admin_bar' => true,
   'taxonomies' => array('category', 'post_tag'),
   'supports' => array(
     'title',
@@ -62,14 +62,14 @@ $args = array(
     'page-attributes',
     'comments'
     )
-  );
-register_post_type( 'recepten', $args );
+);
+  register_post_type('recepten', $args);
 }
 add_action('init', 'zoetrecepten_recept_cpt', 0);
 
 function zoetrecepten_blog_cpt() {
 // Create custom post type: Blog
-$labels = array(
+  $labels = array(
   'name' => 'Blog',
   'singular_name' => 'Blog',
   'add_new' => 'Nieuw Bericht',
@@ -78,20 +78,20 @@ $labels = array(
   'new_item' => 'Nieuw Bericht',
   'view_item' => 'Bekijk Bericht',
   'search_items' => 'Zoek Bericht',
-  'not_found' =>  'Geen Bericht Gevonden',
+  'not_found' => 'Geen Bericht Gevonden',
   'not_found_in_trash' => 'Geen Bericht Gevonden In De Prullenbak',
   );
-$args = array(
+  $args = array(
   'labels' => $labels,
-  'menu_position' =>  6,
+  'menu_position' => 6,
   'has_archive' => true,
   'public' => true,
   'hierarchical' => true,
-	'show_ui'             => true,
-	'show_in_menu'        => true,
-	'show_in_nav_menus'   => true,
-	'show_in_admin_bar'   => true,
-	'taxonomies'  => array( 'category', 'post_tag'),
+	'show_ui' => true,
+	'show_in_menu' => true,
+	'show_in_nav_menus' => true,
+	'show_in_admin_bar' => true,
+	'taxonomies' => array( 'category', 'post_tag'),
   'supports' => array(
     'title',
     'editor',
@@ -102,12 +102,12 @@ $args = array(
     'comments'
     )
   );
-register_post_type( 'blog', $args );
+  register_post_type('blog', $args);
 }
 add_action('init', 'zoetrecepten_blog_cpt', 0);
 
 //Add Google Analytics to footer
-function zoetrecepten_add_googleanalytics() { ?>
+function zoetrecepten_add_googleanalytics() {?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40838792-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
