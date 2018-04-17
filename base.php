@@ -52,7 +52,7 @@ use Roots\Sage\Wrapper;
     ?>
 
     <!-- Zoetrecepten/billboard+mobile -->
-    <div id='adf-billboard' style='text-align:center;margin:auto'>
+    <div id='adf-billboard' style='text-align:center;margin:1rem auto'>
     </div>
 
     <div class="wrap container" role="document">

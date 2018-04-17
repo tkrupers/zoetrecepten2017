@@ -1,0 +1,22 @@
+.ingredienten-overzicht {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+
+  .letter-item {
+    margin-top: 10px;
+  }
+
+  @media (min-width: 768px) {
+    max-height: 500px;
+    flex-wrap: wrap;
+  }
+}
+
+.ingredienten-recepten {
+  .card {
+    max-width: 300px;
+    flex: 1 0 25%;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,5 +1,5 @@
 <a href="https://partnerprogramma.bol.com/click/click?p=1&t=url&s=27739&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Fpuur-zoet%2F9200000085089948%2F&name=PUUR%20ZOET" class="boek-alert d-block p-3 text-center text-white" role="alert">
-Reserveer PUUR ZOET nu via deze link voor €24,99!
+Bestel PUUR ZOET nu via deze link voor €24,99!
 </a>
 <nav class="navbar fixed-top navbar-toggleable-md navbar-light hidden-print py-2" style="background-color:white">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

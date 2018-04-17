@@ -22,7 +22,11 @@ main.single-page {
   }
 }
 
-main.main,
+.page-header {
+  margin: 1em;
+}
+
+main,
 .main-page {
   width: 100%;
   background-color: white;
@@ -35,36 +39,4 @@ main.main,
 
 select.form-control {
   color: $input-color-placeholder;
-}
-
-@media all and (min-width: 768px) {
-  div#adf-billboard {
-    margin-top: 75px;
-  }
-}
-
-@media all and (max-width: 768px) {
-
-  div#adf-autonative,
-  div#adf-billboard {
-    position: relative;
-
-    iframe {
-      position: relative;
-    }
-  }
-
-  .iframe-wrapper {
-    height: 0px;
-    padding-top: 25px;
-    padding-bottom: 56.2%;
-    position: relative;
-  }
-  .iframe-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 }

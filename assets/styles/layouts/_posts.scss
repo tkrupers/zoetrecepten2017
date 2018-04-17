@@ -36,3 +36,22 @@
     color: $brand-primary;
   }
 }
+
+.work-in-progress {
+  .placeholder-image {
+    width: 100%;
+    height: 300px;
+    background: #eee;
+    display: flex;
+
+    span {
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .placeholder-image {
+      height: 100px;
+    }
+  }
+}
